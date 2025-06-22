@@ -39,7 +39,7 @@ def tap_space(keyboard: Controller):
 
 
 def pause(key):
-    if key == Key.tab:
+    if key == Key.caps_lock:
         if run_monitor.is_set():
             run_monitor.clear()
 
